@@ -1,1 +1,293 @@
-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
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+local Window = Rayfield:CreateWindow({
+    Name = "Axe-Ware",
+    LoadingTitle = "Loading the best universal script",
+    LoadingSubtitle = "by theswordsmadeofyes/workspace.star",
+    ConfigurationSaving = {
+       Enabled = false,
+       FolderName = nil, -- Create a custom folder for your hub/game
+       FileName = "Big Hub"
+    },
+    Discord = {
+       Enabled = true,
+       Invite = "UjRcZnRMgE", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ABCD would be ABCD
+       RememberJoins = true -- Set this to false to make them join the discord every time they load it up
+    },
+    KeySystem = false, -- Set this to true to use our key system
+    KeySettings = {
+       Title = "Untitled",
+       Subtitle = "Key System",
+       Note = "No method of obtaining the key is provided",
+       FileName = "Key", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
+       SaveKey = true, -- The user's key will be saved, but if you change the key, they will be unable to use your script
+       GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
+       Key = {"Hello"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
+    }
+ })
+
+local MainTab = Window:CreateTab("Main", 4483362458)
+
+--// Cache
+
+local select = select
+local pcall, getgenv, next, Vector2, mathclamp, type, mousemoverel = select(1, pcall, getgenv, next, Vector2.new, math.clamp, type, mousemoverel or (Input and Input.MouseMove))
+
+--// Preventing Multiple Processes
+
+pcall(function()
+	getgenv().Aimbot.Functions:Exit()
+end)
+
+--// Environment
+
+getgenv().Aimbot = {}
+local Environment = getgenv().Aimbot
+
+--// Services
+
+local RunService = game:GetService("RunService")
+local UserInputService = game:GetService("UserInputService")
+local TweenService = game:GetService("TweenService")
+local Players = game:GetService("Players")
+local Camera = workspace.CurrentCamera
+local LocalPlayer = Players.LocalPlayer
+
+--// Variables
+
+local RequiredDistance, Typing, Running, Animation, ServiceConnections = 2000, false, false, nil, {}
+
+--// Script Settings
+
+Environment.Settings = {
+	Enabled = false,
+	TeamCheck = false,
+	AliveCheck = false,
+	WallCheck = false, -- Laggy
+	Sensitivity = 0, -- Animation length (in seconds) before fully locking onto target
+	ThirdPerson = false, -- Uses mousemoverel instead of CFrame to support locking in third person (could be choppy)
+	ThirdPersonSensitivity = 3, -- Boundary: 0.1 - 5
+	TriggerKey = "MouseButton2",
+	Toggle = false,
+	LockPart = "Head" -- Body part to lock on
+}
+
+Environment.FOVSettings = {
+	Enabled = false,
+	Visible = true,
+	Amount = 500,
+	Color = Color3.fromRGB(255, 0, 255),
+	LockedColor = Color3.fromRGB(255, 0, 255),
+	Transparency = 0.5,
+	Sides = 60,
+	Thickness = 1,
+	Filled = false
+}
+
+Environment.FOVCircle = Drawing.new("Circle")
+
+--// Functions
+
+local function CancelLock()
+	Environment.Locked = nil
+	if Animation then Animation:Cancel() end
+	Environment.FOVCircle.Color = Environment.FOVSettings.Color
+end
+
+local function GetClosestPlayer()
+	if not Environment.Locked then
+		RequiredDistance = (Environment.FOVSettings.Enabled and Environment.FOVSettings.Amount or 2000)
+
+		for _, v in next, Players:GetPlayers() do
+			if v ~= LocalPlayer then
+				if v.Character and v.Character:FindFirstChild(Environment.Settings.LockPart) and v.Character:FindFirstChildOfClass("Humanoid") then
+					if Environment.Settings.TeamCheck and v.Team == LocalPlayer.Team then continue end
+					if Environment.Settings.AliveCheck and v.Character:FindFirstChildOfClass("Humanoid").Health <= 0 then continue end
+					if Environment.Settings.WallCheck and #(Camera:GetPartsObscuringTarget({v.Character[Environment.Settings.LockPart].Position}, v.Character:GetDescendants())) > 0 then continue end
+
+					local Vector, OnScreen = Camera:WorldToViewportPoint(v.Character[Environment.Settings.LockPart].Position)
+					local Distance = (Vector2(UserInputService:GetMouseLocation().X, UserInputService:GetMouseLocation().Y) - Vector2(Vector.X, Vector.Y)).Magnitude
+
+					if Distance < RequiredDistance and OnScreen then
+						RequiredDistance = Distance
+						Environment.Locked = v
+					end
+				end
+			end
+		end
+	elseif (Vector2(UserInputService:GetMouseLocation().X, UserInputService:GetMouseLocation().Y) - Vector2(Camera:WorldToViewportPoint(Environment.Locked.Character[Environment.Settings.LockPart].Position).X, Camera:WorldToViewportPoint(Environment.Locked.Character[Environment.Settings.LockPart].Position).Y)).Magnitude > RequiredDistance then
+		CancelLock()
+	end
+end
+
+--// Typing Check
+
+ServiceConnections.TypingStartedConnection = UserInputService.TextBoxFocused:Connect(function()
+	Typing = true
+end)
+
+ServiceConnections.TypingEndedConnection = UserInputService.TextBoxFocusReleased:Connect(function()
+	Typing = false
+end)
+
+--// Main
+
+local function Load()
+	ServiceConnections.RenderSteppedConnection = RunService.RenderStepped:Connect(function()
+		if Environment.FOVSettings.Enabled and Environment.Settings.Enabled then
+			Environment.FOVCircle.Radius = Environment.FOVSettings.Amount
+			Environment.FOVCircle.Thickness = Environment.FOVSettings.Thickness
+			Environment.FOVCircle.Filled = Environment.FOVSettings.Filled
+			Environment.FOVCircle.NumSides = Environment.FOVSettings.Sides
+			Environment.FOVCircle.Color = Environment.FOVSettings.Color
+			Environment.FOVCircle.Transparency = Environment.FOVSettings.Transparency
+			Environment.FOVCircle.Visible = Environment.FOVSettings.Visible
+			Environment.FOVCircle.Position = Vector2(UserInputService:GetMouseLocation().X, UserInputService:GetMouseLocation().Y)
+		else
+			Environment.FOVCircle.Visible = false
+		end
+
+		if Running and Environment.Settings.Enabled then
+			GetClosestPlayer()
+
+			if Environment.Locked then
+				if Environment.Settings.ThirdPerson then
+					Environment.Settings.ThirdPersonSensitivity = mathclamp(Environment.Settings.ThirdPersonSensitivity, 0.1, 5)
+
+					local Vector = Camera:WorldToViewportPoint(Environment.Locked.Character[Environment.Settings.LockPart].Position)
+					mousemoverel((Vector.X - UserInputService:GetMouseLocation().X) * Environment.Settings.ThirdPersonSensitivity, (Vector.Y - UserInputService:GetMouseLocation().Y) * Environment.Settings.ThirdPersonSensitivity)
+				else
+					if Environment.Settings.Sensitivity > 0 then
+						Animation = TweenService:Create(Camera, TweenInfo.new(Environment.Settings.Sensitivity, Enum.EasingStyle.Sine, Enum.EasingDirection.Out), {CFrame = CFrame.new(Camera.CFrame.Position, Environment.Locked.Character[Environment.Settings.LockPart].Position)})
+						Animation:Play()
+					else
+						Camera.CFrame = CFrame.new(Camera.CFrame.Position, Environment.Locked.Character[Environment.Settings.LockPart].Position)
+					end
+				end
+
+			Environment.FOVCircle.Color = Environment.FOVSettings.LockedColor
+
+			end
+		end
+	end)
+
+	ServiceConnections.InputBeganConnection = UserInputService.InputBegan:Connect(function(Input)
+		if not Typing then
+			pcall(function()
+				if Input.KeyCode == Enum.KeyCode[Environment.Settings.TriggerKey] then
+					if Environment.Settings.Toggle then
+						Running = not Running
+
+						if not Running then
+							CancelLock()
+						end
+					else
+						Running = true
+					end
+				end
+			end)
+
+			pcall(function()
+				if Input.UserInputType == Enum.UserInputType[Environment.Settings.TriggerKey] then
+					if Environment.Settings.Toggle then
+						Running = not Running
+
+						if not Running then
+							CancelLock()
+						end
+					else
+						Running = true
+					end
+				end
+			end)
+		end
+	end)
+
+	ServiceConnections.InputEndedConnection = UserInputService.InputEnded:Connect(function(Input)
+		if not Typing then
+			if not Environment.Settings.Toggle then
+				pcall(function()
+					if Input.KeyCode == Enum.KeyCode[Environment.Settings.TriggerKey] then
+						Running = false; CancelLock()
+					end
+				end)
+
+				pcall(function()
+					if Input.UserInputType == Enum.UserInputType[Environment.Settings.TriggerKey] then
+						Running = false; CancelLock()
+					end
+				end)
+			end
+		end
+	end)
+end
+
+--// Functions
+
+Environment.Functions = {}
+
+function Environment.Functions:Exit()
+	for _, v in next, ServiceConnections do
+		v:Disconnect()
+	end
+
+	if Environment.FOVCircle.Remove then Environment.FOVCircle:Remove() end
+
+	getgenv().Aimbot.Functions = nil
+	getgenv().Aimbot = nil
+	
+	Load = nil; GetClosestPlayer = nil; CancelLock = nil
+end
+
+function Environment.Functions:Restart()
+	for _, v in next, ServiceConnections do
+		v:Disconnect()
+	end
+
+	Load()
+end
+
+function Environment.Functions:ResetSettings()
+	Environment.Settings = {
+		Enabled = false,
+		TeamCheck = false,
+		AliveCheck = true,
+		WallCheck = false,
+		Sensitivity = 0, -- Animation length (in seconds) before fully locking onto target
+		ThirdPerson = false, -- Uses mousemoverel instead of CFrame to support locking in third person (could be choppy)
+		ThirdPersonSensitivity = 3, -- Boundary: 0.1 - 5
+		TriggerKey = "MouseButton2",
+		Toggle = false,
+		LockPart = "Head" -- Body part to lock on
+	}
+
+	Environment.FOVSettings = {
+		Enabled = false,
+		Visible = true,
+		Amount = 90,
+		Color = Color3.fromRGB(255, 255, 255),
+		LockedColor = Color3.fromRGB(255, 70, 70),
+		Transparency = 0.5,
+		Sides = 60,
+		Thickness = 1,
+		Filled = false
+	}
+end
+
+--// Load
+
+Load()
+
+local Toggle = MainTab:CreateToggle({
+    Name = "Aimbot",
+    CurrentValue = false,
+    Flag = "Toggle1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+    Callback = function(v)
+        if v then
+            Environment.Functions:ResetSettings()
+            Environment.Settings.Enabled = true
+        else
+            Environment.Functions:ResetSettings()
+            Environment.Settings.Enabled = false
+        end
+    end,
+ })
