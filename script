@@ -1,6 +1,6 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 local Window = Rayfield:CreateWindow({
-    Name = "Axe-Ware",
+    Name = "Axe-Ware v1.1",
     LoadingTitle = "Loading the best universal script",
     LoadingSubtitle = "by theswordsmadeofyes/workspace.star",
     ConfigurationSaving = {
@@ -100,7 +100,7 @@ local function GetClosestPlayer()
 		for _, v in next, Players:GetPlayers() do
 			if v ~= LocalPlayer then
 				if v.Character and v.Character:FindFirstChild(Environment.Settings.LockPart) and v.Character:FindFirstChildOfClass("Humanoid") then
-					if Environment.Settings.TeamCheck and v.Team == LocalPlayer.Team then continue end
+					if Environment.Settings.TeamCheck and v.Team == LocalPlayer.Team or v.Team == "Neutral" then continue end
 					if Environment.Settings.AliveCheck and v.Character:FindFirstChildOfClass("Humanoid").Health <= 0 then continue end
 					if Environment.Settings.WallCheck and #(Camera:GetPartsObscuringTarget({v.Character[Environment.Settings.LockPart].Position}, v.Character:GetDescendants())) > 0 then continue end
 
@@ -277,7 +277,7 @@ end
 
 Load()
 
-local Toggle = MainTab:CreateToggle({
+local AimbotToggle = MainTab:CreateToggle({
     Name = "Aimbot",
     CurrentValue = false,
     Flag = "Toggle1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
@@ -289,5 +289,97 @@ local Toggle = MainTab:CreateToggle({
             Environment.Functions:ResetSettings()
             Environment.Settings.Enabled = false
         end
+    end,
+ })
+
+ local AimbotTeamCheckToggle = MainTab:CreateToggle({
+    Name = "Aimbot - TeamCheck",
+    CurrentValue = false,
+    Flag = "Toggle1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+    Callback = function(v)
+        if v then
+            Environment.Settings.TeamCheck = true
+        else
+            Environment.Settings.TeamCheck = false
+        end
+    end,
+ })
+
+ local AimbotWallheckToggle = MainTab:CreateToggle({
+    Name = "Aimbot - Wallcheck",
+    CurrentValue = false,
+    Flag = "Toggle1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+    Callback = function(v)
+        if v then
+            Environment.Settings.WallCheck = true
+        else
+            Environment.Settings.WallCheck = false
+        end
+    end,
+ })
+
+local esp = false
+
+local highlight = Instance.new("Highlight")
+highlight.Name = "awe" -- axe-ware-esp
+
+for i, v in pairs(game:GetService("Players"):GetPlayers()) do
+	if v == game.Players.LocalPlayer then continue end
+	repeat task.wait() until v.Character
+	if not v.Character:FindFirstChild("HumanoidRootPart"):FindFirstChild("awe") then
+		local highlightClone = highlight:Clone()
+		highlightClone.Adornee = v.Character
+		highlightClone.Parent = v.Character:FindFirstChild("HumanoidRootPart")
+		highlightClone.DepthMode = Enum.HighlightDepthMode.AlwaysOnTop
+		highlightClone.FillTransparency = 0.5
+		highlightClone.Enabled = esp
+		highlightClone.Name = "awe"
+	end
+end
+
+game.Players.PlayerAdded:Connect(function(v)
+	repeat task.wait() until v.Character
+	if not v.Character:FindFirstChild("HumanoidRootPart"):FindFirstChild("awe") then
+		local highlightClone = highlight:Clone()
+		highlightClone.Adornee = v.Character
+		highlightClone.Parent = v.Character:FindFirstChild("HumanoidRootPart")
+		highlightClone.DepthMode = Enum.HighlightDepthMode.AlwaysOnTop
+		highlightClone.FillTransparency = 0.5
+		highlightClone.Enabled = esp
+		highlightClone.Name = "awe"
+	end
+end)
+
+game:GetService("RunService").Heartbeat:Connect(function(step)
+	for i, v in pairs(game:GetService("Players"):GetPlayers()) do
+		if v == game.Players.LocalPlayer then continue end
+		repeat task.wait() until v.Character
+		if not v.Character:FindFirstChild("HumanoidRootPart"):FindFirstChild("awe") then
+			local highlightClone = highlight:Clone()
+			highlightClone.Adornee = v.Character
+			highlightClone.Parent = v.Character:FindFirstChild("HumanoidRootPart")
+			highlightClone.DepthMode = Enum.HighlightDepthMode.AlwaysOnTop
+			highlightClone.FillTransparency = 0.5
+			highlightClone.Enabled = esp
+			highlightClone.Name = "awe"
+			task.wait()
+		end
+	end
+
+	for i, v in pairs(game:GetService("Players"):GetPlayers()) do
+		if v == game.Players.LocalPlayer then continue end
+		repeat task.wait() until v.Character
+		if v.Character:FindFirstChild("HumanoidRootPart"):FindFirstChild("awe") then
+			v.Character:FindFirstChild("HumanoidRootPart"):FindFirstChild("awe").Enabled = esp
+		end
+	end
+end)
+
+local ESPToggle = MainTab:CreateToggle({
+    Name = "Esp",
+    CurrentValue = false,
+    Flag = "Toggle1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+    Callback = function(v)
+        esp = v
     end,
  })
